@@ -1,0 +1,31 @@
+{
+	"@type":"Hierarchy",
+	"Name":"Forecast_Version",
+	"Elements":
+	[
+		{
+			"Name":"Actual",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Budget",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Forecast",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Forecast High Bound",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Forecast Low Bound",
+			"Type":"Numeric"
+		}
+	],
+	"Subsets@Code.links":
+	[
+		"Forecast_Version.subsets/Forecast.json"
+	]
+}

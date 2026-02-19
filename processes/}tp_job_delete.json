@@ -1,0 +1,33 @@
+{
+	"@type":"Process",
+	"Name":"}tp_job_delete",
+	"HasSecurityAccess":true,
+	"Code@Code.link":"}tp_job_delete.ti",
+	"DataSource":
+	{
+		"Type":"None"
+	},
+	"Parameters":
+	[
+		{
+			"Name":"pExecutionId",
+			"Prompt":"",
+			"Value":"None",
+			"Type":"String"
+		},
+		{
+			"Name":"pJobId",
+			"Prompt":"",
+			"Value":"MyJob",
+			"Type":"String"
+		},
+		{
+			"Name":"pControl",
+			"Prompt":"",
+			"Value":"Y",
+			"Type":"String"
+		}
+	],
+	"Variables":[],
+	"UID": "17422941490007"
+}

@@ -1,0 +1,16 @@
+{
+	"@type":"Dimension",
+	"Name":"organization",
+	"Hierarchies@Code.links":
+	[
+		"organization.hierarchies/organization.json",
+		"organization.hierarchies/Currency.json",
+		"organization.hierarchies/Default Plant.json",
+		"organization.hierarchies/VP.json",
+		"organization.hierarchies/VP Re-org.json"
+	],
+	"DefaultHierarchy":
+	{
+		"@id":"Dimensions('organization')/Hierarchies('organization')"
+	}
+}

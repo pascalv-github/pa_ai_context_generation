@@ -1,0 +1,33 @@
+{
+	"@type":"Process",
+	"Name":"}tp_set_running_maintenance",
+	"HasSecurityAccess":true,
+	"Code@Code.link":"}tp_set_running_maintenance.ti",
+	"DataSource":
+	{
+		"Type":"None"
+	},
+	"Parameters":
+	[
+		{
+			"Name":"pExecutionId",
+			"Prompt":"",
+			"Value":"None",
+			"Type":"String"
+		},
+		{
+			"Name":"pControl",
+			"Prompt":"",
+			"Value":"N",
+			"Type":"String"
+		},
+		{
+			"Name":"pValue",
+			"Prompt":"",
+			"Value":"N",
+			"Type":"String"
+		}
+	],
+	"Variables":[],
+	"UID": "17422941500007"
+}

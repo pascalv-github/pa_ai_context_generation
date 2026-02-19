@@ -1,0 +1,52 @@
+{
+	"@type":"MDXView",
+	"Name":"Sales for phone products",
+	"MDX@Code.link":"Sales for phone products.mdx",
+	"Meta": {
+		"Aliases": {
+			"[Year].[Year]": "Caption_Default",
+			"[Channel].[Channel]": "Caption_Default",
+			"[Revenue].[Revenue]": "Caption_Default",
+			"[organization].[organization]": "Caption_Default",
+			"[Version].[Version]": "Caption_Default",
+			"[product].[product]": "Caption_Default"
+		},
+		"ExpandAboves": {
+			"[Year].[Year]": false,
+			"[Month].[Month]": false,
+			"[Channel].[Channel]": false,
+			"[Revenue].[Revenue]": false,
+			"[organization].[organization]": false,
+			"[Version].[Version]": false,
+			"[product].[product]": false
+		},
+		"ContextSets": {
+			"[Month].[Month]": {
+				"SubsetName": "MY",
+				"IsPublic": true
+			},
+			"[Channel].[Channel]": {
+				"SubsetName": "Default",
+				"IsPublic": true
+			},
+			"[Revenue].[Revenue]": {
+				"SubsetName": "Default",
+				"IsPublic": true
+			},
+			"[organization].[organization]": {
+				"SubsetName": "Workflow",
+				"IsPublic": true
+			},
+			"[Version].[Version]": {
+				"SubsetName": "Current",
+				"IsPublic": true
+			}
+		}
+	},
+	"ViewExtractSkipRuleValues": false,
+	"ViewExtractSkipConsolidatedValues": true,
+	"ViewExtractSkipZeroes": true,
+	"IsSuppressComputeOnOpen": false,
+	"IsAutocalculate": true,
+	"IsDeferComputeOnLeafDataEntry": false
+}

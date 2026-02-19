@@ -1,0 +1,13 @@
+{
+	"@type":"Process",
+	"Name":"Acquire_IS",
+	"HasSecurityAccess":true,
+	"Code@Code.link":"Acquire_IS.ti",
+	"DataSource":
+	{
+		"Type":"None"
+	},
+	"Parameters":[],
+	"Variables":[],
+	"UID": "17422941440004"
+}

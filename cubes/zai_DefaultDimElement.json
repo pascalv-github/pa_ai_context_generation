@@ -1,0 +1,14 @@
+{
+	"@type":"Cube",
+	"Name":"zai_DefaultDimElement",
+	"Dimensions":
+	[
+		{
+			"@id":"Dimensions('}Dimensions')"
+		},
+		{
+			"@id":"Dimensions('zai_DefaultDimElement')"
+		}
+	],
+	"Views@Code.links":[]
+}

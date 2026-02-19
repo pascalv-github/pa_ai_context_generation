@@ -1,0 +1,20 @@
+{
+	"@type":"Cube",
+	"Name":"Forecast_Example",
+	"Dimensions":
+	[
+		{
+			"@id":"Dimensions('Forecast_Year')"
+		},
+		{
+			"@id":"Dimensions('Revenue')"
+		},
+		{
+			"@id":"Dimensions('product')"
+		},
+		{
+			"@id":"Dimensions('Forecast_Version')"
+		}
+	],
+	"Views@Code.links":[]
+}

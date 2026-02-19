@@ -1,0 +1,11 @@
+{
+	"@type":"Subset",
+	"Name":"Forecast",
+	"Alias":"MEMBER_NAME",
+	"Elements":
+	[
+		{
+			"@id":"Dimensions('Forecast_Version')/Hierarchies('Forecast_Version')/Elements('Forecast')"
+		}
+	]
+}

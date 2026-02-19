@@ -1,0 +1,12 @@
+{
+	"@type":"Hierarchy",
+	"Name":"zai_DefaultDimElement",
+	"Elements":
+	[
+		{
+			"Name":"DefaultElement",
+			"Type":"String"
+		}
+	],
+	"Subsets@Code.links":[]
+}

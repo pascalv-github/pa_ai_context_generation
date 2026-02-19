@@ -1,0 +1,33 @@
+{
+	"@type":"Process",
+	"Name":"}tp_deploy_create_task_navigation_cube",
+	"HasSecurityAccess":true,
+	"Code@Code.link":"}tp_deploy_create_task_navigation_cube.ti",
+	"DataSource":
+	{
+		"Type":"None"
+	},
+	"Parameters":
+	[
+		{
+			"Name":"pExecutionId",
+			"Prompt":"",
+			"Value":"None",
+			"Type":"String"
+		},
+		{
+			"Name":"pAppId",
+			"Prompt":"",
+			"Value":"None",
+			"Type":"String"
+		},
+		{
+			"Name":"pNavigationDimensions",
+			"Prompt":"",
+			"Value":"None",
+			"Type":"String"
+		}
+	],
+	"Variables":[],
+	"UID": "17422941480008"
+}

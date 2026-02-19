@@ -1,0 +1,12 @@
+{
+	"@type":"Dimension",
+	"Name":"Forecast_Year",
+	"Hierarchies@Code.links":
+	[
+		"Forecast_Year.hierarchies/Forecast_Year.json"
+	],
+	"DefaultHierarchy":
+	{
+		"@id":"Dimensions('Forecast_Year')/Hierarchies('Forecast_Year')"
+	}
+}

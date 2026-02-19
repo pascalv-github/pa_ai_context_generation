@@ -1,0 +1,33 @@
+{
+	"@type":"Process",
+	"Name":"}tp_update_application_securityOverlay",
+	"HasSecurityAccess":true,
+	"Code@Code.link":"}tp_update_application_securityOverlay.ti",
+	"DataSource":
+	{
+		"Type":"None"
+	},
+	"Parameters":
+	[
+		{
+			"Name":"pExecutionId",
+			"Prompt":"",
+			"Value":"None",
+			"Type":"String"
+		},
+		{
+			"Name":"pAppId",
+			"Prompt":"",
+			"Value":"MyApp",
+			"Type":"String"
+		},
+		{
+			"Name":"pCube",
+			"Prompt":"",
+			"Value":"None",
+			"Type":"String"
+		}
+	],
+	"Variables":[],
+	"UID": "174229415000016"
+}

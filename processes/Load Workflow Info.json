@@ -1,0 +1,39 @@
+{
+	"@type":"Process",
+	"Name":"Load Workflow Info",
+	"HasSecurityAccess":true,
+	"Code@Code.link":"Load Workflow Info.ti",
+	"DataSource":
+	{
+		"Type":"TM1CubeView",
+		"dataSourceNameForServer":"}tp_application_state}0f309cd0-4215-4482-8471-80ef000fcbb3",
+		"dataSourceNameForClient":"}tp_application_state}0f309cd0-4215-4482-8471-80ef000fcbb3",
+		"view":"All"
+	},
+	"Parameters":[],
+	"Variables":
+	[
+		{
+			"Name":"organization",
+			"Type":"String",
+			"Position":1,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"V2",
+			"Type":"String",
+			"Position":2,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"Value",
+			"Type":"String",
+			"Position":3,
+			"StartByte":0,
+			"EndByte":0
+		}
+	],
+	"UID": "174229414500012"
+}

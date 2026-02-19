@@ -1,0 +1,27 @@
+{
+	"@type":"Process",
+	"Name":"Export Dimensions to SPSS",
+	"HasSecurityAccess":true,
+	"Code@Code.link":"Export Dimensions to SPSS.ti",
+	"DataSource":
+	{
+		"Type":"None"
+	},
+	"Parameters":
+	[
+		{
+			"Name":"pDimension",
+			"Prompt":"Enter the Dimension Name",
+			"Value":"product",
+			"Type":"String"
+		},
+		{
+			"Name":"pIncludeParent",
+			"Prompt":"Include Parent?",
+			"Value":"Y",
+			"Type":"String"
+		}
+	],
+	"Variables":[],
+	"UID": "17422941450009"
+}

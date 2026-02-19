@@ -1,0 +1,21 @@
+{
+	"@type":"Process",
+	"Name":"}tp_error_setup",
+	"HasSecurityAccess":true,
+	"Code@Code.link":"}tp_error_setup.ti",
+	"DataSource":
+	{
+		"Type":"None"
+	},
+	"Parameters":
+	[
+		{
+			"Name":"pControl",
+			"Prompt":"",
+			"Value":"N",
+			"Type":"String"
+		}
+	],
+	"Variables":[],
+	"UID": "174229414800020"
+}

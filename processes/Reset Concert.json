@@ -1,0 +1,13 @@
+{
+	"@type":"Process",
+	"Name":"Reset Concert",
+	"HasSecurityAccess":true,
+	"Code@Code.link":"Reset Concert.ti",
+	"DataSource":
+	{
+		"Type":"None"
+	},
+	"Parameters":[],
+	"Variables":[],
+	"UID": "174229414500017"
+}

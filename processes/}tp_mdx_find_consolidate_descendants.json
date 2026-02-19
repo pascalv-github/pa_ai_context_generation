@@ -1,0 +1,39 @@
+{
+	"@type":"Process",
+	"Name":"}tp_mdx_find_consolidate_descendants",
+	"HasSecurityAccess":true,
+	"Code@Code.link":"}tp_mdx_find_consolidate_descendants.ti",
+	"DataSource":
+	{
+		"Type":"None"
+	},
+	"Parameters":
+	[
+		{
+			"Name":"pExecutionId",
+			"Prompt":"",
+			"Value":"None",
+			"Type":"String"
+		},
+		{
+			"Name":"pDim",
+			"Prompt":"",
+			"Value":"None",
+			"Type":"String"
+		},
+		{
+			"Name":"pSubset",
+			"Prompt":"",
+			"Value":"None",
+			"Type":"String"
+		},
+		{
+			"Name":"pNode",
+			"Prompt":"",
+			"Value":"None",
+			"Type":"String"
+		}
+	],
+	"Variables":[],
+	"UID": "174229414900011"
+}

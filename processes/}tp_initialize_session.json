@@ -1,0 +1,21 @@
+{
+	"@type":"Process",
+	"Name":"}tp_initialize_session",
+	"HasSecurityAccess":true,
+	"Code@Code.link":"}tp_initialize_session.ti",
+	"DataSource":
+	{
+		"Type":"None"
+	},
+	"Parameters":
+	[
+		{
+			"Name":"pExecutionId",
+			"Prompt":"",
+			"Value":"None",
+			"Type":"String"
+		}
+	],
+	"Variables":[],
+	"UID": "17422941490005"
+}

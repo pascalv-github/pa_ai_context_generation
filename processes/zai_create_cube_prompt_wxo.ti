@@ -151,7 +151,7 @@ vSubsetSize = SubsetGetSize('}Dimensions', pCubeName);
 vIndex = 1;
     While(vIndex <= vSubsetSize);
         vElement = SubsetGetElementName('}Dimensions', pCubeName, vIndex);
-        prompt=prompt | 'Dimension "' | vElement | '" has the default element: ' | CellGetS( '}DimensionAttributes', vElement, '}DimensionAttributes':'DefaultElement' ) |'. ';
+        prompt=prompt | 'Dimension "' | vElement | '" has the default element: ' | CellGetS( 'zai_DefaultDimElement', vElement, 'zai_DefaultDimElement':'DefaultElement' ) |'. ';
         vIndex = vIndex + 1;
     End;
 AsciiOutput(sFile, prompt);

@@ -1,0 +1,13 @@
+{
+	"@type":"Process",
+	"Name":"}tp_util_truncate_error_dim",
+	"HasSecurityAccess":true,
+	"Code@Code.link":"}tp_util_truncate_error_dim.ti",
+	"DataSource":
+	{
+		"Type":"None"
+	},
+	"Parameters":[],
+	"Variables":[],
+	"UID": "17422941520004"
+}

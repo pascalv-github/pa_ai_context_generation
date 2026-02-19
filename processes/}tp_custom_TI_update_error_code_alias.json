@@ -1,0 +1,39 @@
+{
+	"@type":"Process",
+	"Name":"}tp_custom_TI_update_error_code_alias",
+	"HasSecurityAccess":true,
+	"Code@Code.link":"}tp_custom_TI_update_error_code_alias.ti",
+	"DataSource":
+	{
+		"Type":"None"
+	},
+	"Parameters":
+	[
+		{
+			"Name":"pExecutionId",
+			"Prompt":"",
+			"Value":"None",
+			"Type":"String"
+		},
+		{
+			"Name":"pErrorCode",
+			"Prompt":"",
+			"Value":"None",
+			"Type":"String"
+		},
+		{
+			"Name":"pAliasName",
+			"Prompt":"",
+			"Value":"None",
+			"Type":"String"
+		},
+		{
+			"Name":"pAliasValue",
+			"Prompt":"",
+			"Value":"None",
+			"Type":"String"
+		}
+	],
+	"Variables":[],
+	"UID": "17422941470009"
+}

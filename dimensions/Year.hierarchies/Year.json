@@ -1,0 +1,46 @@
+{
+	"@type":"Hierarchy",
+	"Name":"Year",
+	"Elements":
+	[
+		{
+			"Name":"Y1",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Y2",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Y3",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Y4",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Y2-Y1 $",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Y2-Y1 %",
+			"Type":"Numeric"
+		}
+	],
+	"DefaultMemberName":"Y2",
+	"LevelNames":
+	[
+		"Year"
+	],
+	"Subsets@Code.links":
+	[
+		"Year.subsets/__BACKUP_All Members.json",
+		"Year.subsets/__BACKUP_Year.json",
+		"Year.subsets/All Members.json",
+		"Year.subsets/Default.json",
+		"Year.subsets/Todo.json",
+		"Year.subsets/Year.json",
+		"Year.subsets/zCopyFrom.json"
+	]
+}

@@ -1,0 +1,39 @@
+{
+	"@type":"Process",
+	"Name":"}tp_reset_view_by_cube_user",
+	"HasSecurityAccess":true,
+	"Code@Code.link":"}tp_reset_view_by_cube_user.ti",
+	"DataSource":
+	{
+		"Type":"None"
+	},
+	"Parameters":
+	[
+		{
+			"Name":"pExecutionId",
+			"Prompt":"",
+			"Value":"None",
+			"Type":"String"
+		},
+		{
+			"Name":"pAppId",
+			"Prompt":"",
+			"Value":"MyApp",
+			"Type":"String"
+		},
+		{
+			"Name":"pCube",
+			"Prompt":"",
+			"Value":"None",
+			"Type":"String"
+		},
+		{
+			"Name":"pUser",
+			"Prompt":"",
+			"Value":"None",
+			"Type":"String"
+		}
+	],
+	"Variables":[],
+	"UID": "174229414900020"
+}

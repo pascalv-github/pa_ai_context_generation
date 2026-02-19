@@ -1,0 +1,54 @@
+{
+	"@type":"Process",
+	"Name":"}Drill_JobCodeAssumption",
+	"HasSecurityAccess":true,
+	"Code@Code.link":"}Drill_JobCodeAssumption.ti",
+	"DataSource":
+	{
+		"Type":"TM1CubeView",
+		"dataSourceNameForServer":"Job Code Assumptions",
+		"dataSourceNameForClient":"Job Code Assumptions",
+		"view":"Drill"
+	},
+	"Parameters":
+	[
+		{
+			"Name":"cubename",
+			"Prompt":"",
+			"Value":"Employee",
+			"Type":"String"
+		},
+		{
+			"Name":"organization",
+			"Prompt":"",
+			"Value":"100",
+			"Type":"String"
+		},
+		{
+			"Name":"EmployeeList",
+			"Prompt":"",
+			"Value":"Total",
+			"Type":"String"
+		},
+		{
+			"Name":"pYear",
+			"Prompt":"",
+			"Value":"Y1",
+			"Type":"String"
+		},
+		{
+			"Name":"Version",
+			"Prompt":"",
+			"Value":"Version 1",
+			"Type":"String"
+		},
+		{
+			"Name":"Employee",
+			"Prompt":"",
+			"Value":"Name/Desc",
+			"Type":"String"
+		}
+	],
+	"Variables":[],
+	"UID": "174229414600011"
+}

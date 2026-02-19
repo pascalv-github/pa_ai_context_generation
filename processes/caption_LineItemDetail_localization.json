@@ -1,0 +1,13 @@
+{
+	"@type":"Process",
+	"Name":"caption_LineItemDetail_localization",
+	"HasSecurityAccess":true,
+	"Code@Code.link":"caption_LineItemDetail_localization.ti",
+	"DataSource":
+	{
+		"Type":"None"
+	},
+	"Parameters":[],
+	"Variables":[],
+	"UID": "17422941440009"
+}

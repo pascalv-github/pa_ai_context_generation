@@ -1,0 +1,13 @@
+{
+	"@type":"Process",
+	"Name":"reset_demo_FOPMImage",
+	"HasSecurityAccess":true,
+	"Code@Code.link":"reset_demo_FOPMImage.ti",
+	"DataSource":
+	{
+		"Type":"None"
+	},
+	"Parameters":[],
+	"Variables":[],
+	"UID": "174229414500021"
+}

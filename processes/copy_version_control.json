@@ -1,0 +1,53 @@
+{
+	"@type":"Process",
+	"Name":"copy_version_control",
+	"HasSecurityAccess":true,
+	"Code@Code.link":"copy_version_control.ti",
+	"DataSource":
+	{
+		"Type":"TM1CubeView",
+		"dataSourceNameForServer":"Version Copy Control",
+		"dataSourceNameForClient":"Version Copy Control",
+		"view":"zVersionCopy"
+	},
+	"Parameters":
+	[
+		{
+			"Name":"pFromVersion",
+			"Prompt":"From Version",
+			"Value":"Prior Year Actual",
+			"Type":"String"
+		},
+		{
+			"Name":"pToVersion",
+			"Prompt":"To Version",
+			"Value":"Target",
+			"Type":"String"
+		}
+	],
+	"Variables":
+	[
+		{
+			"Name":"LineItemList",
+			"Type":"String",
+			"Position":1,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"VersionCopyMeasures",
+			"Type":"String",
+			"Position":2,
+			"StartByte":0,
+			"EndByte":0
+		},
+		{
+			"Name":"Value",
+			"Type":"String",
+			"Position":3,
+			"StartByte":0,
+			"EndByte":0
+		}
+	],
+	"UID": "17422941450001"
+}

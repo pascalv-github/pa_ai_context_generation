@@ -1,0 +1,13 @@
+{
+	"@type":"Process",
+	"Name":"RefreshMdxHierarchy",
+	"HasSecurityAccess":true,
+	"Code@Code.link":"RefreshMdxHierarchy.ti",
+	"DataSource":
+	{
+		"Type":"None"
+	},
+	"Parameters":[],
+	"Variables":[],
+	"UID": "174229414500015"
+}

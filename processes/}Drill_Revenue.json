@@ -1,0 +1,60 @@
+{
+	"@type":"Process",
+	"Name":"}Drill_Revenue",
+	"HasSecurityAccess":true,
+	"Code@Code.link":"}Drill_Revenue.ti",
+	"DataSource":
+	{
+		"Type":"TM1CubeView",
+		"dataSourceNameForServer":"Revenue",
+		"dataSourceNameForClient":"Revenue",
+		"view":"Drill_Revenue"
+	},
+	"Parameters":
+	[
+		{
+			"Name":"cubename",
+			"Prompt":"",
+			"Value":"Income Statement",
+			"Type":"String"
+		},
+		{
+			"Name":"Currency Calc",
+			"Prompt":"",
+			"Value":"Local",
+			"Type":"String"
+		},
+		{
+			"Name":"organization_reporting",
+			"Prompt":"",
+			"Value":"100",
+			"Type":"String"
+		},
+		{
+			"Name":"Year",
+			"Prompt":"",
+			"Value":"Y1",
+			"Type":"String"
+		},
+		{
+			"Name":"Month",
+			"Prompt":"",
+			"Value":"Year",
+			"Type":"String"
+		},
+		{
+			"Name":"Account",
+			"Prompt":"",
+			"Value":"Statistics",
+			"Type":"String"
+		},
+		{
+			"Name":"Version",
+			"Prompt":"",
+			"Value":"Version 1",
+			"Type":"String"
+		}
+	],
+	"Variables":[],
+	"UID": "174229414600016"
+}

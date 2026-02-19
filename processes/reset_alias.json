@@ -1,0 +1,27 @@
+{
+	"@type":"Process",
+	"Name":"reset_alias",
+	"HasSecurityAccess":true,
+	"Code@Code.link":"reset_alias.ti",
+	"DataSource":
+	{
+		"Type":"None"
+	},
+	"Parameters":
+	[
+		{
+			"Name":"pDimensionName",
+			"Prompt":"Dimension Name",
+			"Value":"",
+			"Type":"String"
+		},
+		{
+			"Name":"pSubsetName",
+			"Prompt":"Subset Name",
+			"Value":"",
+			"Type":"String"
+		}
+	],
+	"Variables":[],
+	"UID": "174229414500019"
+}

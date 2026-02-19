@@ -1,0 +1,13 @@
+{
+	"@type":"Process",
+	"Name":"Release_IS",
+	"HasSecurityAccess":true,
+	"Code@Code.link":"Release_IS.ti",
+	"DataSource":
+	{
+		"Type":"None"
+	},
+	"Parameters":[],
+	"Variables":[],
+	"UID": "174229414500016"
+}

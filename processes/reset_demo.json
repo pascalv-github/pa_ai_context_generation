@@ -1,0 +1,21 @@
+{
+	"@type":"Process",
+	"Name":"reset_demo",
+	"HasSecurityAccess":true,
+	"Code@Code.link":"reset_demo.ti",
+	"DataSource":
+	{
+		"Type":"None"
+	},
+	"Parameters":
+	[
+		{
+			"Name":"pZeroTarget",
+			"Prompt":"",
+			"Value":"",
+			"Type":"String"
+		}
+	],
+	"Variables":[],
+	"UID": "174229414500020"
+}
