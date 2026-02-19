@@ -1,0 +1,14 @@
+{
+	"@type":"Process",
+	"Name":"zai_get_ibmcloud_token",
+	"HasSecurityAccess":false,
+	"Code@Code.link":"zai_get_ibmcloud_token.ti",
+	"DataSource":
+	{
+		"Type":"None"
+	},
+	"Parameters":[],
+	"Variables":[],
+	"UID": "1769095702000",
+	"VariablesUIData": []
+}
